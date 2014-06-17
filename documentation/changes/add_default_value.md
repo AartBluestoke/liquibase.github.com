@@ -131,8 +131,9 @@ ALTER TABLE cat.file ALTER fileName SET DEFAULT 'Something Else';
 <tr><td>MySQL</td><td><b>Supported</b></td><td><b>Yes</b></td></tr>
 <tr><td>Oracle</td><td><b>Supported</b></td><td><b>Yes</b></td></tr>
 <tr><td>PostgreSQL</td><td><b>Supported</b></td><td><b>Yes</b></td></tr>
-<tr><td>SQL Server</td><td><b>Supported</b></td><td><b>Yes</b></td></tr>
+<tr><td>SQL Server</td><td><b>Supported</b></td><td><b>No*</b></td></tr>
 <tr><td>SQLite</td><td><b>Supported</b></td><td><b>Yes</b></td></tr>
 <tr><td>Sybase</td><td><b>Supported</b></td><td><b>Yes</b></td></tr>
 <tr><td>Sybase Anywhere</td><td><b>Supported</b></td><td><b>Yes</b></td></tr>
 </table>
+* attempting auto-rollback causes failure due to an invalid query being generated
